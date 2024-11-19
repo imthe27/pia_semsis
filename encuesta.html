@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>@import url(cssEncuesta.css);
+</style> <!--importar css-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta de Ansiedad Estudiantil</title>
+</head>
+<body>
+    <div id="contenedor-form">
+        <h1>Encuesta de Ansiedad Estudiantil</h1>
+        <form id="encuesta">
+            <p>1. ¿Con qué frecuencia anticipas con preocupación los próximos exámenes o entregas?</p> <!--atributo "autocomplete" desactivado, label para formato-->
+            <label><input autocomplete="off" type="radio" name="pregunta1" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta1" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta1" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta1" value="4"> Muy frecuentemente</label><br>
+        
+            <p>2. ¿Sientes síntomas físicos (como sudoración, palpitaciones) antes de un examen o entrega importante?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta2" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta2" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta2" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta2" value="4"> Muy frecuentemente</label><br>
+        
+            <p>3. Durante un examen o actividad, ¿te sientes constantemente evaluado o autocrítico?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta3" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta3" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta3" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta3" value="4"> Muy frecuentemente</label><br>
+        
+            <p>4. ¿Te sientes frustrado o decepcionado si tu rendimiento no es el esperado?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta4" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta4" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta4" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta4" value="4"> Muy frecuentemente</label><br>
+        
+            <p>5. ¿Te sientes socialmente aislado por el estrés academico?</p> <!--agregue pregunta de act 5.1-->
+            <label><input autocomplete="off" type="radio" name="pregunta5" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta5" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta5" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta5" value="4"> Muy frecuentemente</label><br>
+
+            <p>6. ¿Con qué frecuencia te resulta difícil estudiar en grupo?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta6" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta6" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta6" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta6" value="4"> Muy frecuentemente</label><br>
+
+            <p>7. ¿Qué tan a menudo sientes que no tienes suficiente apoyo emocional?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta7" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta7" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta7" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta7" value="4"> Muy frecuentemente</label><br>
+
+            <p>8. ¿Con qué frecuencia te cuesta encontrar un lugar cómodo para estudiar?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta8" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta8" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta8" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta8" value="4"> Muy frecuentemente</label><br>
+
+            <p>9. ¿Qué tan seguido te distraes fácilmente con el celular?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta9" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta9" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta9" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta9" value="4"> Muy frecuentemente</label><br>
+
+            <p>10. ¿Con qué frecuencia te preocupa no entender bien los temas?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta10" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta10" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta10" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta10" value="4"> Muy frecuentemente</label><br>
+
+            <p>11. ¿Qué tan a menudo te cuesta aceptar tus límites?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta11" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta11" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta11" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta11" value="4"> Muy frecuentemente</label><br>
+
+            <p>12. ¿Con qué frecuencia sientes que tienes demasiadas cosas por aprender?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta12" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta12" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta12" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta12" value="4"> Muy frecuentemente</label><br>
+
+            <p>13. ¿Qué tan seguido te resulta difícil terminar tus tareas a tiempo?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta13" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta13" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta13" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta13" value="4"> Muy frecuentemente</label><br>
+
+            <p>14. ¿Con qué frecuencia sientes que no tienes tiempo para ti mismo?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta14" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta14" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta14" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta14" value="4"> Muy frecuentemente</label><br>
+
+            <p>15. ¿Qué tan a menudo te cuesta mantenerte positivo cuando estás estresado?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta15" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta15" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta15" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta15" value="4"> Muy frecuentemente</label><br>
+
+            <p>16. ¿Con qué frecuencia sientes que necesitas tiempo para relajarte?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta16" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta16" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta16" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta16" value="4"> Muy frecuentemente</label><br>
+
+            <p>17. ¿Qué tan seguido te resulta difícil enfrentar tus miedos sobre el futuro?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta17" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta17" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta17" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta17" value="4"> Muy frecuentemente</label><br>
+
+            <p>18. ¿Con qué frecuencia te sientes inseguro en tus habilidades?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta18" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta18" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta18" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta18" value="4"> Muy frecuentemente</label><br>
+
+            <p>19. ¿Qué tan seguido sientes que estás perdiendo el interés en tus estudios?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta19" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta19" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta19" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta19" value="4"> Muy frecuentemente</label><br>
+
+            <p>20. ¿Con qué frecuencia sientes que el miedo a fracasar afecta tu desempeño académico?</p>
+            <label><input autocomplete="off" type="radio" name="pregunta20" value="1"> Nunca</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta20" value="2"> A veces</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta20" value="3"> Frecuentemente</label><br>
+            <label><input autocomplete="off" type="radio" name="pregunta20" value="4"> Muy frecuentemente</label><br>
+        
+            <button type="button" onclick="calcularFase()">Enviar</button>
+        </form>
+
+        <div id="resultado" style="display:none;">
+            <h2>Resultado de la Encuesta</h2>
+            <p id="mensajeResultado"></p>
+        </div>
+
+        <a href="inicio.html">Regresar a la pagina de inicio</a>
+
+    </div> 
+
+    <button id="volverArriba" onclick="volverArriba()">↑</button>
+    <script src="script.js">
+    </script>
+</body>
+</html>
